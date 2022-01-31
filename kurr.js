@@ -643,7 +643,7 @@ options
 
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya `
 const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak```'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🗿DAFTAR🗿 `,},type: 1,},]
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `✨DAFTAR✨ `,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -1106,9 +1106,9 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan🏴‍☠️`
+menu =` BOT ツˣᴿᶻズガ✨`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
+{buttonId:`allmenu`,buttonText:{displayText:'🔥LIST MENU🔥'},type:1},
 {buttonId:`store`,buttonText:{displayText:'🔰STORE MENU🔰'},type:1},
 {buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
 ]
@@ -1137,27 +1137,27 @@ else if(menusimpel = true){
 				stst = stst.status == 401 ? '' : stst.status
        menu = `┌───「 \`\`\`Kurz Bot Assistan\`\`\` 」
 │
-🏴‍☠️ _Creator : *KurrXd* 
-🏴‍☠️ _Battery : ${baterai.battery}_
-🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
-🏴‍☠️ _Total Hit : ${cmhit.length}_
+⚡ _Creator : *ツˣᴿᶻズガx* 
+🔋 _Battery : ${baterai.battery}_
+📢 _Mode : ${publik ? 'Public' : 'Self'}_
+❕ _Total Hit : ${cmhit.length}_
 🏴‍☠️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
 │
-🏴‍☠️───「 \`\`\`INFO BOT\`\`\` 」
+🔥───「 \`\`\`INFO BOT\`\`\` 」
 │
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
-🏴‍☠️ _Nama Owner : ${NamaOwner}_
-🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
-🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
-🏴‍☠️ _Auto Recording : ${settings.autorecording}_
+🤖 _Nama Bot : BOT ツˣᴿᶻズガx_
+⚡ _Nama Owner : ${NamaOwner}_
+📞 _Nomor Owner : @${otod.split('@')[0]}_
+📱 _Auto Composing : ${settings.autocomposing}_
+🖨️ _Auto Recording : ${settings.autorecording}_
 │
-🏴‍☠️───「 \`\`\`INFO USER\`\`\` 」
+🧟───「 \`\`\`INFO USER\`\`\` 」
 │
-🏴‍☠️ _Status : ${isOwner ? 'Owner' : 'User'}_
-🏴‍☠️ _Nama : ${pushname}_
-🏴‍☠️ _Bio : ${stst}_
-🏴‍☠️ _Nomor : @${stod.split('@')[0]}_
-🏴‍☠️ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
+🧟 _Status : ${isOwner ? 'Owner' : 'User'}_
+🧟 _Nama : ${pushname}_
+🧟 _Bio : ${stst}_
+🧟 _Nomor : @${stod.split('@')[0]}_
+🧟 _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
 └───「 \`\`\`Kurz Bot Assistan\`\`\` 」`
 sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
@@ -1167,28 +1167,28 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ Kurz Bot Assistan 🏴‍☠️'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       nama = '❕ BOT ツˣᴿᶻズガx ❕'
+       ownerJid = "6285775238312@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *ツˣᴿᶻズガx*
-🏴‍☠️ _Battery : ${baterai.battery}_
-🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
-🏴‍☠️ _Total Hit : ${cmhit.length}_
-🏴‍☠️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-🏴‍☠️ _Nama Bot : ツˣᴿᶻズガx BOT_
-🏴‍☠️ _Nama Owner : ${NamaOwner}_
-🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
-🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
-🏴‍☠️ _Auto Recording : ${settings.autorecording}_
+😌 _Creator : *ツˣᴿᶻズガx*
+🔋 _Battery : ${baterai.battery}_
+📢 _Mode : ${publik ? 'Public' : 'Self'}_
+✨ _Total Hit : ${cmhit.length}_
+💌 _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
+🤖 _Nama Bot : ツˣᴿᶻズガx BOT_
+🥴 _Nama Owner : ${NamaOwner}_
+📞 _Nomor Owner : @${otod.split('@')[0]}_
+📱 _Auto Composing : ${settings.autocomposing}_
+🖨️ _Auto Recording : ${settings.autorecording}_
 └❏
 
 ╭─❒ 「 User Info 」 ❒
 ☄️ _Status : ${isOwner ? 'Owner' : 'User'}_
 💫 _Nama : ${pushname}_
-🏴‍☠️ _Bio : ${stst}_
-🏴‍☠️ _Nomor : @${stod.split('@')[0]}_
+🟡 _Bio : ${stst}_
+📞 _Nomor : @${stod.split('@')[0]}_
 └❏
 
 ┌❏ TO DAY
@@ -1199,9 +1199,9 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 └❏
 
 ┌❏ INDONESIA TIME
-🏴‍☠️ Wib : ${timeWib}
-🏴‍☠️ Wita : ${timeWita}
-🏴‍☠️ Wit : ${timeWit}  
+🇮🇩 Wib : ${timeWib}
+🇮🇩 Wita : ${timeWita}
+🇮🇩 Wit : ${timeWit}  
 └❏
 
 ╭─❒ COMMAND
