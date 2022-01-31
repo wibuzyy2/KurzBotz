@@ -1172,12 +1172,12 @@ stod = `${sender}`
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd*
+🏴‍☠️ _Creator : *ツˣᴿᶻズガx*
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
 🏴‍☠️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : ツˣᴿᶻズガx BOT_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1185,17 +1185,17 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 └❏
 
 ╭─❒ 「 User Info 」 ❒
-🏴‍☠️ _Status : ${isOwner ? 'Owner' : 'User'}_
-🏴‍☠️ _Nama : ${pushname}_
+☄️ _Status : ${isOwner ? 'Owner' : 'User'}_
+💫 _Nama : ${pushname}_
 🏴‍☠️ _Bio : ${stst}_
 🏴‍☠️ _Nomor : @${stod.split('@')[0]}_
 └❏
 
 ┌❏ TO DAY
 │ ${tampilUcapan}
-🏴‍☠️ Jam : ${jmn}
-🏴‍☠️ Hari : ${week} ${weton}
-🏴‍☠️ Tanggal : ${calender}
+🌏 Jam : ${jmn}
+🌎 Hari : ${week} ${weton}
+🌍 Tanggal : ${calender}
 └❏
 
 ┌❏ INDONESIA TIME
@@ -1206,7 +1206,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 
 ╭─❒ COMMAND
 │
-🏴‍☠️─❒ OWNER
+🟡─❒ OWNER
 🏴‍☠️ ${prefix}autorespon [ _on/off_ ]
 🏴‍☠️ ${prefix}antidelete [ _on/off_ ]
 🏴‍☠️ ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
@@ -1259,11 +1259,11 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ ${prefix}tutuptime [ _detik/menit/jam_ ]
 🏴‍☠️ ${prefix}nano [ _nama file_ ]
 │
-🏴‍☠️─❒ NEW FITUR
+✨─❒ NEW FITUR
 🏴‍☠️ ${prefix}jadibot
 🏴‍☠️ ${prefix}stopjadibot
 │
-🏴‍☠️─❒ DOWNLOAD
+😉─❒ DOWNLOAD
 🏴‍☠️ ${prefix}infogempa
 🏴‍☠️ ${prefix}herolist
 🏴‍☠️ ${prefix}herodetail [ _hero_ ]
@@ -1304,7 +1304,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ ${prefix}otaku [ _search_ ]
 🏴‍☠️ ${prefix}komiku [ _search_ ]
 │
-🏴‍☠️─❒ MAKER
+💫─❒ MAKER
 🏴‍☠️ ${prefix}foliokanan [ _text_ ]
 🏴‍☠️ ${prefix}foliokiri [ _text_ ]
 🏴‍☠️ ${prefix}nuliskanan [ _text_ ]
@@ -1313,7 +1313,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ ${prefix}maker2d [ _text_ ]
 🏴‍☠️ ${prefix}epepserti [ _text_ ]
 │
-🏴‍☠️──❒ GROUP
+🤖──❒ GROUP
 🏴‍☠️ ${prefix}getpict [ _@tag_ ]
 🏴‍☠️ ${prefix}getname [ _reply target_ ]
 🏴‍☠️ ${prefix}getbio [ _reply target_ ]
@@ -1345,7 +1345,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ ${prefix}sticktag [ _nama sticker_ ]
 🏴‍☠️ ${prefix}totag [ _reply media_ ]
 │
-🏴‍☠️─❒ TOOLS
+🛠️─❒ TOOLS
 🏴‍☠️ ${prefix}sticker
 🏴‍☠️ ${prefix}stickerwm [ _nama|author_ ]
 🏴‍☠️ ${prefix}takestick [ _nama|author_ ]
@@ -1363,12 +1363,12 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ ${prefix}detikvn [ _reply audio caption angka_ ]
 🏴‍☠️ ${prefix}detikvideo [ _reply video caption angka_ ]
 │
-🏴‍☠️─❒ ASUPAN
+🎀─❒ ASUPAN
 🏴‍☠️ ${prefix}asupan
 🏴‍☠️ ${prefix}asupan2
 🏴‍☠️ ${prefix}asupant3
 │
-🏴‍☠️─❒ STORAGE
+🌀─❒ STORAGE
 🏴‍☠️ ${prefix}listimage
 🏴‍☠️ ${prefix}liststicker
 🏴‍☠️ ${prefix}listvn
@@ -1379,17 +1379,17 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 🏴‍☠️ ${prefix}addimage [ _nama_ ]
 🏴‍☠️ ${prefix}delimage [ _nama_ ]
 │
-🏴‍☠️─❒ JADI BOT
+🔥─❒ JADI BOT
 🏴‍☠️ ${prefix}stopjadibot
 🏴‍☠️ ${prefix}jadibot
 │
-🏴‍☠️─❒ EVAL
+🐦─❒ EVAL
 🏴‍☠️ *x*
 🏴‍☠️ *>*
 🏴‍☠️ *=>*
 🏴‍☠️ *$*
 │
-🏴‍☠️─❒ OTHER / FUN
+💌─❒ OTHER / FUN
 🏴‍☠️ ${prefix}rate
 🏴‍☠️ ${prefix}kapankah
 🏴‍☠️ ${prefix}apakah
@@ -1478,7 +1478,7 @@ const serialUser = createSerial(18)
 
 *「 Kurz Bot Assistan 」*`
 gbutsan = [
-{buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
+{buttonId:`menu`,buttonText:{displayText:'🤖MENU🤖'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
@@ -1557,7 +1557,7 @@ break
 case 'ownermenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 menu = `❏ 「 \`\`\`MENU OWNER\`\`\` 」
-🏴‍☠️─❒ OWNER
+🟡─❒ OWNER
 🏴‍☠️ ${prefix}autorespon [ _on/off_ ]
 🏴‍☠️ ${prefix}antidelete [ _on/off_ ]
 🏴‍☠️ ${prefix}bc [ _teks/reply gif/image/video with caption_ ]
@@ -1614,7 +1614,7 @@ break
 case 'downloadmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 menu = `❏ 「 \`\`\`MENU DOWNLOAD\`\`\` 」
-🏴‍☠️────────────────────
+🌏────────────────────
 🏴‍☠️ ${prefix}infogempa
 🏴‍☠️ ${prefix}herolist
 🏴‍☠️ ${prefix}herodetail [ _hero_ ]
@@ -1646,7 +1646,7 @@ katalog(menu)
 break
 case 'makermenu':
 menu = `❏ 「 \`\`\`MENU MAKER\`\`\` 」
-🏴‍☠️─❒ MAKER
+💫─❒ MAKER
 🏴‍☠️ ${prefix}foliokanan [ _text_ ]
 🏴‍☠️ ${prefix}foliokiri [ _text_ ]
 🏴‍☠️ ${prefix}nuliskanan [ _text_ ]
@@ -1659,7 +1659,7 @@ break
 case 'groupmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 menu = `❏ 「 \`\`\`MENU GROUP\`\`\` 」
-🏴‍☠️──❒ GROUP
+🤖──❒ GROUP
 🏴‍☠️ ${prefix}getpict [ _@tag_ ]
 🏴‍☠️ ${prefix}getname [ _reply target_ ]
 🏴‍☠️ ${prefix}getbio [ _reply target_ ]
@@ -1695,7 +1695,7 @@ break
 case 'othermenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 menu = `❏ 「 \`\`\`MENU OTHER\`\`\` 」
-🏴‍☠️────────────────────
+🔥────────────────────
 🏴‍☠️ ${prefix}jadibot
 🏴‍☠️ ${prefix}caripesan [ _teks|jumlah_ ]
 🏴‍☠️ ${prefix}slots
@@ -1830,7 +1830,7 @@ case 'meme':
 sticWait(from)
 anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/darkjokes?apikey=${YuzApi}`)
 buff = await getBuffer(anu.result.result)
-gbutsan = [{buttonId:`meme`,buttonText:{displayText:'LANJUT➡️'},type:1}]
+gbutsan = [{buttonId:`meme`,buttonText:{displayText:'LANJUT🎀'},type:1}]
 mhan = await kurr.prepareMessage(from, buff, image, {thumbnail: buff})
 const buttonMessagessss = {
 imageMessage: mhan.message.imageMessage,
@@ -2915,7 +2915,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_©kurr_*',
+    footerText: '*_©ツˣᴿᶻズガx_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3122,9 +3122,9 @@ if (args.length < 1) return reply('Link Nya Mana? ')
 if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.api)
 if (Number(filesize) >= 30000) return reply(`*「 MEDIAFIRE DOWNLOAD 」*
 
-*🏴‍☠️ Nama :* ${res[0].nama}
-*🏴‍☠️ Ukuran :* ${res[0].size}
-*🏴‍☠️ Link :* ${res[0].link}
+*🟡 Nama :* ${res[0].nama}
+*🟡 Ukuran :* ${res[0].size}
+*✨ Link :* ${res[0].link}
 
 _Maaf size melebihi batas maksimal, Silahkan klik link diatas_`)
 sticWait(from)
@@ -3133,9 +3133,9 @@ res = await mediafireDl(teks)
 result = `*「 MEDIAFIRE DOWNLOAD 」*
 
 *Data Berhasil Didapatkan!*
-\`\`\`🏴‍☠️ Nama : ${res[0].nama}\`\`\`
-\`\`\`🏴‍☠️ Ukuran : ${res[0].size}\`\`\`
-\`\`\`🏴‍☠️ Link : ${res[0].link}\`\`\`
+\`\`\`🥴 Nama : ${res[0].nama}\`\`\`
+\`\`\`🟡 Ukuran : ${res[0].size}\`\`\`
+\`\`\`🟡 Link : ${res[0].link}\`\`\`
 
 _File sedang dikirim, Silahkan tunggu beberapa menit_`
 reply(result)
